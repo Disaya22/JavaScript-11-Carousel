@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+.carousel{
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel > img{
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+button{
+    background: none;
+    border: none;
+    outline: none;
+
+    color: #fff;
+    font-size: 4em;
+    cursor: pointer;
+
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+.previous{
+    left: 0%;
+    /* top:  */
+}
+
+.next{
+    right: 0%;
+}
